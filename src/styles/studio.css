@@ -1,0 +1,137 @@
+.studio {
+    min-height: 100vh;
+    padding: 10vw 8vw;
+
+    background: #ebe6dc;
+    color: #292524;
+
+    overflow: hidden;
+}
+
+
+/* HEADER */
+
+.studio-header span {
+    font-size: 0.75rem;
+    letter-spacing: 0.25em;
+    opacity: 0.6;
+}
+
+.studio-header h1 {
+    margin: 50px 0 100px;
+
+    max-width: 1000px;
+
+    font-size: clamp(3rem, 7vw, 7rem);
+    font-weight: 300;
+    line-height: 0.95;
+
+    letter-spacing: -0.05em;
+}
+
+.studio-header h1 em {
+    font-family: Georgia, serif;
+    font-weight: 400;
+}
+
+
+/* INTRO */
+
+.studio-intro {
+    max-width: 650px;
+    margin-left: auto;
+}
+
+.studio-intro p {
+    font-size: clamp(1rem, 1.3vw, 1.25rem);
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+
+/* EXPECT */
+
+.studio-expect {
+    margin-top: 140px;
+}
+
+.studio-expect h2 {
+    font-size: clamp(2rem, 4vw, 4rem);
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+
+/* CARDS */
+
+.studio-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.studio-card {
+    min-height: 280px;
+
+    padding: 35px;
+
+    border: 1px solid rgba(41, 37, 36, 0.25);
+
+    display: flex;
+    flex-direction: column;
+
+    transition:
+        transform 0.4s ease,
+        background 0.4s ease;
+}
+
+.studio-card span {
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+.studio-card h3 {
+    margin-top: auto;
+
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.studio-card p {
+    margin: 10px 0 0;
+
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+.img1 {
+    width: 100%;
+    height: auto;
+}
+
+/* HOVER */
+
+.studio-card:hover {
+    transform: translateY(-10px);
+
+    background: rgba(255, 255, 255, 0.35);
+}
+
+
+/* FOOTER */
+
+.studio-footer {
+    margin-top: 160px;
+    text-align: right;
+}
+
+.studio-footer h2 {
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -0.04em;
+}
+
+.studio-footer em {
+    font-family: Georgia, serif;
+}
