@@ -89,3 +89,40 @@ button:hover {
     color: white;
     height: 50%;
 }
+@media (max-width: 768px) {
+
+    .header {
+        height: 70px;
+        padding: 0 10px;
+    }
+
+    .logo {
+        height: 60px;
+        width: auto;
+    }
+
+    .r {
+        gap: 5px;
+        padding: 0;
+    }
+
+    .slider {
+        padding: 3px;
+    }
+
+    .slider button {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .slider-pill {
+        top: 3px;
+        bottom: 3px;
+    }
+
+    .b {
+        padding: 8px 12px;
+        font-size: 12px;
+        height: auto;
+    }
+}

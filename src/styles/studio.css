@@ -135,3 +135,105 @@
 .studio-footer em {
     font-family: Georgia, serif;
 }
+@media (max-width: 768px) {
+
+    .studio {
+        min-height: auto;
+        padding: 80px 20px;
+    }
+
+
+    /* HEADER */
+
+    .studio-header span {
+        font-size: 0.7rem;
+        letter-spacing: 0.2em;
+    }
+
+    .studio-header h1 {
+        margin: 35px 0 60px;
+
+        max-width: 100%;
+
+        font-size: clamp(3rem, 12vw, 5rem);
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+    }
+
+
+    /* INTRO */
+
+    .studio-intro {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .studio-intro p {
+        font-size: 1rem;
+        line-height: 1.65;
+        margin-bottom: 20px;
+    }
+
+
+    /* EXPECT */
+
+    .studio-expect {
+        margin-top: 90px;
+    }
+
+    .studio-expect h2 {
+        font-size: clamp(2rem, 9vw, 3.5rem);
+        margin-bottom: 40px;
+    }
+
+
+    /* CARDS */
+
+    .studio-cards {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .studio-card {
+        min-height: auto;
+        padding: 25px;
+    }
+
+    .studio-card h3 {
+        margin-top: 30px;
+        font-size: 1.4rem;
+    }
+
+    .studio-card p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .img1 {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        margin-top: 15px;
+    }
+
+
+    /* FOOTER */
+
+    .studio-footer {
+        margin-top: 90px;
+        text-align: left;
+    }
+
+    .studio-footer h2 {
+        font-size: clamp(2.5rem, 10vw, 4rem);
+        line-height: 1.05;
+    }
+
+
+    /* Disable hover movement on mobile */
+
+    .studio-card:hover {
+        transform: none;
+        background: transparent;
+    }
+}

@@ -44,3 +44,45 @@
 .about-statement strong {
     font-weight: 700;
 }
+@media (max-width: 768px) {
+
+    .about {
+        min-height: auto;
+        padding: 80px 20px;
+    }
+
+    .about-heading span {
+        font-size: 0.7rem;
+        letter-spacing: 0.2em;
+    }
+
+    .about-heading h2 {
+        margin: 5px 0 60px;
+        font-size: 1.2rem;
+    }
+
+    .about-content h1 {
+        margin-bottom: 45px;
+        font-size: clamp(3rem, 14vw, 5rem);
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+    }
+
+    .about-text {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .about-text p {
+        margin-bottom: 20px;
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+
+    .about-statement {
+        margin-top: 70px;
+        font-size: clamp(2rem, 9vw, 3.5rem);
+        line-height: 1.1;
+        text-align: left;
+    }
+}

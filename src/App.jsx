@@ -2,7 +2,7 @@ import Home from "./pages/Home";
 import Header from "./pages/Header";
 import About from "./pages/About";
 import Studio from "./pages/Studio";
-
+import "./styles/gobal.css"
 function App() {
     return (
         <div>
